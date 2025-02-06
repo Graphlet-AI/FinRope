@@ -15,6 +15,7 @@ packages = [{include = "finrope"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
+followthemoney = "^3.8.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.1.0"
