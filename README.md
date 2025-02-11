@@ -20,9 +20,9 @@ The risk motifs are defined in the [motifs/](motifs/) directory. Each motif is a
 
 ## Python SDK
 
-This is the Python SDK for the FinRope project. It provides a set of tools and utilities to work with the FinRope schema and perform various operations related to financial risk patterns.
+The Python SDK for the FinRope project is in [python/](python/). It provides a set of tools and utilities to work with the FinRope schema and perform various operations related to financial risk patterns.
 
-For more information, check the [python/README.md](python/README.md) file.
+For more information, check the [python/README.md](python/README.md).
 
 ## License
 
