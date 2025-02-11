@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "finrope"}]
 
 [tool.poetry.urls]
-"Company Homepage" = "https://graphlet.ai"
+"Project Homepage" = "https://finrope.org"
 "Blog Post" = "https://blog.graphlet.ai/financial-crime-and-corruption-network-motifs-4cf2e8e10eb5"
 "Code Repository" = "https://github.com/Graphlet-AI/FinRope"
 "Bug Tracker" = "https://github.com/Graphlet-AI/FinRope/issues"
@@ -32,15 +32,15 @@ build-backend = "poetry.core.masonry.api"
 [tool.black]
 line-length = 100
 target-version = ["py311"]
-include = ["graphlet", "test"]
+include = ["finrope", "test"]
 
 [tool.isort]
 profile = "black"
-src_paths = ["graphlet", "test"]
+src_paths = ["finrope", "test"]
 
 [tool.mypy]
 python_version = "3.11"
-mypy_path = ["graphlet", "test"]
+mypy_path = ["finrope", "test"]
 warn_return_any = true
 warn_unused_configs = true
 warn_redundant_casts = true
