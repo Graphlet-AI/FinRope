@@ -12,11 +12,11 @@ This project defines risk patterns called network motifs over a property graph m
 
 > FollowTheMoney (FtM) is a data model for anti-corruption investigations. It contains definitions of the entities relevant in such research (like people or companies) and tools that let you generate, validate, and export such data easily. Entities can reference each other, thus creating a graph of relationships.
 
-FollowTheMoney is a statement graph. Property graphs are a more familiar form for most organizations, so we have mapped the FtM schema to a property graph model. The schema is defined in the [schema/](schema/) directory.
+FollowTheMoney is a statement graph. Property graphs are a more familiar form for most organizations, so we have mapped the FtM schema to a property graph model. The schema is defined in the [schema/](schema/) folder.
 
 ## Risk Motifs
 
-The risk motifs are defined in the [motifs/](motifs/) directory. Each motif is a YAML file that describes the structure and properties of the motif.
+The risk motifs are defined in the [motifs/](motifs/) folder. Each motif is a YAML file that describes the structure and properties of the motif.
 
 ## Python SDK
 
